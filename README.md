@@ -37,7 +37,7 @@ This repository contains the source code and deployment configurations for our f
 3. Build the Docker image:
 
     ```bash
-    docker build -t gcr.io/${PROJECT_ID}/front_app:v1 ..
+    docker build -t gcr.io/${PROJECT_ID}/front_app:v1 .
     ```
 4. push the Docker image:
 
