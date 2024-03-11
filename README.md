@@ -1,4 +1,4 @@
-# k8sisfun Project
+# k8sIsFun Project
 
 Welcome to the k8sIsfun project! This repository is part of a larger project.
 
