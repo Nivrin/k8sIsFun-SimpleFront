@@ -42,7 +42,7 @@ This repository contains the source code and deployment configurations for our f
 4. push the Docker image:
 
     ```bash
-    docker push gcr.io/${PROJECT_ID}/data_service:v1
+    docker push gcr.io/${PROJECT_ID}/front_app:v1
     ```
  5. Create a container cluster (if you haven't already done so)
  ```bash
