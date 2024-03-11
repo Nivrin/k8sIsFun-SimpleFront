@@ -6,7 +6,7 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: front-app-deployment
+      app: front-app-deployment  # This is the issue
   template:
     metadata:
       labels:
