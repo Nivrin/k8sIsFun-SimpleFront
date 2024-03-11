@@ -42,7 +42,7 @@ def getcode():
 
 
 def main():
-    st.title("fsafasfsa")
+    st.title("Simple Front")
     getstate()
     getcode()
 
