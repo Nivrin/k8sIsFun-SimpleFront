@@ -61,5 +61,6 @@ jobs:
     - name: Deploy
       run: |-
         kubectl apply -f ./manifests/front_app-service.yaml
+        kubectl delete -f ./manifests/front_app-deployment.yaml
         kubectl apply -f ./manifests/front_app-deployment.yaml
         kubectl set image deployment/front-app-deployment front-app="$GAR_ZONE-docker.pkg.dev/$PROJECT_ID/$GAR_REPO/$IMAGE:$IMAGE_TAG"
