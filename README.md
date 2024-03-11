@@ -52,3 +52,25 @@ kubectl apply -f manifests/front_app-service.yaml
 ```bash
 kubectl apply -f manifests/front_app-deployment.yaml
 ```
+## Continuous Integration/Continuous Deployment (CI/CD)
+
+We use GitHub Actions for CI/CD. The workflow defined in the `google.yml` file automates the building, publishing, and deploying processes.
+
+## Troubleshooting
+
+If you encounter any issues, refer to the logs or the troubleshooting section in the repository.
+
+## Contributing
+
+We welcome contributions from the community. Please read the [contribution guidelines](CONTRIBUTING.md) before submitting a pull request or opening an issue.
+
+## References
+
+- [Streamlit Documentation](https://docs.streamlit.io/)
+- [Kubernetes Documentation](https://kubernetes.io/docs/)
+- [Docker Documentation](https://docs.docker.com/)
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
