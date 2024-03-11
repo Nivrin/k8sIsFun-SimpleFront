@@ -45,10 +45,14 @@ This repository contains the source code and deployment configurations for our f
     docker push gcr.io/${PROJECT_ID}/front_app:v1
     ```
  5. Create a container cluster (if you haven't already done so)
- ```bash
+     ```bash
     gcloud container clusters create <name> --num-nodes=1 
      ```
+6. Apply the Kubernetes service configuration:
 
+    ```bash
+    kubectl apply -f manifests/front_app-service.yaml
+    ```
 
 7. Apply the Kubernetes deployment configuration:
 
