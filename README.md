@@ -37,3 +37,14 @@ docker run -p 8501:8501 front-app
  ```
 
 Open your web browser and navigate to http://localhost:8501 to access the application.
+
+## Deployment
+
+To deploy the application on Kubernetes, use the provided deployment and service YAML files:
+
+Apply the Kubernetes service configuration:
+
+```bash
+kubectl apply -f manifests/front_app-service.yaml
+```
+
