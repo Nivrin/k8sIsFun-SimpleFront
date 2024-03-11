@@ -1,4 +1,4 @@
-# Front-end Application Documentation
+# SimpleFront Application Documentation
 
 Welcome to the documentation for our front-end application deployed on Kubernetes using Streamlit.
 
