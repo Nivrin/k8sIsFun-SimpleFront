@@ -10,7 +10,7 @@ Welcome to the k8sisfun project! This repository is part of a larger project.
 
 ## Architecture
 
-![Architecture](./images/architecture.png)
+![Architecture](./images/architecture.jpg)
 
 # SimpleFront Application Documentation
 
