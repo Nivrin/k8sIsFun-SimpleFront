@@ -34,3 +34,5 @@ To run the application locally, execute the following command:
 
 ```bash
 docker run -p 8501:8501 front-app
+
+Open your web browser and navigate to http://localhost:8501 to access the application.
