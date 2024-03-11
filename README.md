@@ -47,4 +47,8 @@ Apply the Kubernetes service configuration:
 ```bash
 kubectl apply -f manifests/front_app-service.yaml
 ```
+## Apply the Kubernetes deployment configuration:
 
+```bash
+kubectl apply -f manifests/front_app-deployment.yaml
+```
