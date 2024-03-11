@@ -60,6 +60,8 @@ jobs:
     # Deploy the Docker image to the GKE cluster
     - name: Deploy
       run: |-
+        ls
+        
         kubectl apply -f ./manifests/front_app-service.yaml
         
         kubectl delete -f ./manifests/front_app-deployment.yaml
