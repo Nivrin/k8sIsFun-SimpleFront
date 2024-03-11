@@ -60,12 +60,6 @@ jobs:
     # Deploy the Docker image to the GKE cluster
     - name: Deploy
       run: |-
-        ls
-        pwd
-        
         kubectl apply -f ./manifests/front_app-service.yaml
-        
-        kubectl delete -f ./manifests/front_app-deployment.yaml
-        kubectl apply -f ./manifests/front_app-deployment.yaml
-        
-        kubectl set image deployment/front_app-deployment front-app="$GAR_ZONE-docker.pkg.dev/$PROJECT_ID/$GAR_REPO/$IMAGE:$IMAGE_TAG"
+        kubectl apply -f ./manifests/front_app-deployment.yaml --force --wait=false
+        kubectl set image deployment/front-app-deployment front-app="$GAR_ZONE-docker.pkg.dev/$PROJECT_ID/$GAR_REPO/$IMAGE:$IMAGE_TAG"
