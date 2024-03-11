@@ -34,10 +34,6 @@ To run the application locally, follow these steps:
     docker build -t front-app .
     ```
 
-## Configuration
-
-The application requires no additional configuration.
-
 ## Running the Application Locally
 
 To run the application locally, execute the following command:
