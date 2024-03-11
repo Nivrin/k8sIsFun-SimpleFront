@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: front-app
-        image: gcr.io/firstk8sproject-416700/front_app:v1
+        image: gcr.io/${{ secrets.GKE_PROJECT }}/front_app:v1
         imagePullPolicy: Always
         ports:
         - containerPort: 8501
