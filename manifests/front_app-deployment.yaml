@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: front-app-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: front-app
+  template:
+    metadata:
+      labels:
+        app: front-app
+    spec:
+      containers:
+      - name: front-app
+        image: gcr.io/firstk8sproject-416700/front_app:v1
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8501
