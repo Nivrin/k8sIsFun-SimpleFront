@@ -8,6 +8,10 @@ Welcome to the k8sisfun project! This repository is part of a larger project.
 - [Data Service Repository](https://github.com/Nivrin/k8sIsFun-DataService)
 - [Simple Front Repository](https://github.com/Nivrin/k8sIsFun-SimpleFront)
 
+## Architecture
+
+![Architecture](architecture.png)
+
 # SimpleFront Application Documentation
 
 Welcome to the documentation for my front-end application deployed on Kubernetes using Streamlit.
