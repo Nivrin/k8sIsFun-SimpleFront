@@ -10,6 +10,7 @@ Welcome to the k8sIsfun project! This repository is part of a larger project.
 
 ## Architecture
 
+
 ![Architecture](images/architecture.JPG)
 
 # SimpleFront Application Documentation
